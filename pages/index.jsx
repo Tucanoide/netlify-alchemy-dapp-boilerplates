@@ -7,6 +7,7 @@ export default function Home() {
     <div>
       <main className={styles.main}>
         <InstructionsComponent></InstructionsComponent>
+        <TokensBalanceDisplay address={"vitalik.eth"} chain={"ETH_MAINNET"}/>
       </main>
     </div>
   );
